@@ -1,0 +1,14 @@
+{% extends "NewsApp/base.html" %} 
+
+{% block content %}
+    {% for news in new_list %}
+        <article>
+            <h2>
+                <a>
+                    {{ news.title }}
+                </a>
+            </h2>
+            <p>{{ news.content }}</p>
+        </article>
+    {% endfor %}
+{% endblock %}
