@@ -1,0 +1,30 @@
+{% extends "timetable/base.html" %}
+{% load static %}
+
+{% block content %}
+    {% for timetable in timetable_list %} 
+        <div class="{{ timetable.subject_name }}">
+            {%if timetable.subject_type == "Практика"%}
+            <div class="overlap-group">
+            {%elif timetable.subject_type == "КОП"%}
+            <div class="overlap">
+            {%elif timetable.subject_type == "Лекция"%}
+            <div class="overlap-2">
+            {%endif%}
+                <p class="element">
+                    <span class="span">{{ timetable.time_range|slice:":2" }}<br/></span><span class="text-wrapper-5">{{ timetable.time_range|slice:"3:5" }}</span>
+                </p>
+                <p class="p">
+                    <span class="span">{{ timetable.time_range|slice:"6:8" }}<br /></span> <span class="text-wrapper-5">{{ timetable.time_range|slice:"9:11" }}</span>
+                </p>
+                <img class="line" src="{% static 'img/line.svg' %}"/>
+                <div class="overlap-group-2">
+                    <div class="text-wrapper-6"><a style = "text-transform:uppercase;">{{ timetable.subject_name }}</a></div>
+                    <div class="text-wrapper-7">{{ timetable.subject_type }}</div>
+                </div>
+                <div class="text-wrapper-8">{{ timetable.teacher }}</div>
+                <div class="text-wrapper-9">{{ timetable.location }}</div>
+            </div>
+        </div>
+    {% endfor %}
+{% endblock %}
