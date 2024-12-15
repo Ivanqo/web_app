@@ -1,2 +1,6 @@
 Nikolay
 admNik1
+
+python -m pip install Pillow
+
+
