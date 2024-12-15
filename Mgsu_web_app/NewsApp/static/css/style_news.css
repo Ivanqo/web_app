@@ -8,6 +8,48 @@ body {
     height: 100%;
 }
 
+::placeholder { color: #ffffff80; }
+
+.text-input {
+    border: 1px solid #ffffff00;
+    background-color: #ffffff00;
+    transition: background-color 0.3s;
+    position: relative;
+    width: 300px;
+    height: 40px;
+    left: 39px;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    color: #ffffff;
+    outline: none;
+}
+
+.text-input:focus {
+    background-color: #ffffff00; /* Непрозрачный фон при фокусе */
+    border: 1px solid #ffffff00; /* Цвет границы при фокусе */
+    color: #ffffff;
+    outline: none;
+}
+
+.search-button {
+    background-color: #ffffff00; /* Полупрозрачный фон кнопки */
+    border: none;
+    position: absolute;
+    width: 22px;
+    height: 25px;
+    top: 7px;
+    left: 17px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Плавный переход при наведении */
+}
+
+.search-button:hover {
+    background-color: #ffffff00; /* Меняем цвет при наведении */
+}
+
 .div-wrapper {
     background-color: #1e202b;
     display: flex;
