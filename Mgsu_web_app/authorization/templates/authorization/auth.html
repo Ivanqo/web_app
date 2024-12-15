@@ -18,14 +18,23 @@
                     </div>
                     <div class="view"><div class="div">АВТОРИЗАЦИЯ</div></div>
                     <div class="frame-2">
-                        <input type="text" class="login-input" placeholder="Логин или почта" />
-                        <div class="password-wrapper">
-                            <input type="password" class="password-input" placeholder="Пароль" />
-                            <button class="eye-toggle"></button>
-                        </div>
-                        <button class="login-button">
+
+                    <form method="post">
+                        {% csrf_token %}
+
+                        <input type="text" class="login-input" placeholder="Логин или почта" name = "username" />
+
+                            <div class="password-wrapper">
+                                <input type="password" class="password-input" placeholder="Пароль" name = "password"/>
+                                <button type="button" class="eye-toggle"></button>
+                            </div>
+
+                        <button type="submit" class="login-button">
                             <div class="text-wrapper-4">Войти</div>
                         </button>
+
+                    </form>
+
                         <p class="p">
                             <span class="span">Авторизовываясь, Вы соглашаетесь с </span>
                             <a href="#" class="text-wrapper-5">Пользовательским соглашением</a>
