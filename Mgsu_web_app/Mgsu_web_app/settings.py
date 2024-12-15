@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "timetable.apps.TimetableConfig",
     'NewsApp.apps.NewsappConfig',
+    "authorization.apps.AuthorizationConfig",
 ]
 
 MIDDLEWARE = [

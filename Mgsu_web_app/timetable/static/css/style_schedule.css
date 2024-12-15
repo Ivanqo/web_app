@@ -1,4 +1,6 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -205,6 +207,8 @@ body {
     font-weight: 600;
     color: #000000;
     letter-spacing: 0;
+    text-transform:uppercase;
+    word-wrap: break-word
 }
 
 .div-wrapper .text-wrapper-7 {
@@ -241,7 +245,7 @@ body {
     position: absolute;
     height: 29px;
     top: 138px;
-    left: 291px;
+    left: 280px;
     font-family: "Montserrat", Helvetica;
     font-weight: 600;
     color: #000000;
