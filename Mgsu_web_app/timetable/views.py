@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from datetime import date
+from django.contrib.auth.mixins import LoginRequiredMixin
 
 # Create your views here.
 from django.views.generic import (
@@ -9,10 +10,11 @@ from django.views.generic import (
  
 from .models import Timetable
 
-class TimetableListView(ListView):
+class TimetableListView(LoginRequiredMixin, ListView):
     model = Timetable
     queryset = Timetable.objects.all().order_by("time_range")
     
+    redirect_field_name = '../timetable'
     def get_context_data(self,*args, **kwargs):
         
             model = Timetable
