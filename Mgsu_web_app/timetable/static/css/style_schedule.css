@@ -1,0 +1,564 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+html,
+body {
+	background-color: #1E202B;	
+    margin: 0px;
+    height: 100%;
+}
+
+.text-wrapper-6{
+    text-transform: uppercase;
+}
+.div-wrapper {
+    background-color: #1e202b;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.div-wrapper .div {
+    background-color: var(--neutral-100);
+    overflow: hidden;
+    width: 100.0dvw;
+    height: 161.5dvh;
+    position: relative;
+}
+
+.div-wrapper .view {
+    position: absolute;
+    width: 91.03dvw;
+    height: 16.11dvh;
+    top: 1.07dvh;
+    left: 4.36dvw;
+}
+
+.div-wrapper .frame {
+    display: flex;
+    width: 88.46dvw;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 0.77dvw;
+}
+
+.div-wrapper .mask-group {
+    position: relative;
+    width: 6.52dvh;
+    height: 6.52dvh;
+    border-radius: 100px;
+}
+
+.div-wrapper .text-wrapper {
+    display: flex;
+    width: 74.36dvw;
+    height: 9.24dvh;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: var(--blue-20);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.61dvh; /* 62.857% */
+}
+
+.div-wrapper .text-wrapper-2 {
+    position: absolute;
+    height: 2.61dvh;
+    top: 13.51dvh;
+    left: 0;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 2.61dvh;
+    white-space: nowrap;
+}
+
+.div-wrapper .text-wrapper-3 {
+    position: absolute;
+    height: 2.61dvh;
+    top: 9.83dvh;
+    left: 0;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 2.61dvh;
+    white-space: nowrap;
+}
+
+.div-wrapper .ellipse {
+    position: absolute;
+    width: 1.18dvh;
+    height: 1.18dvh;
+    top: 14.22dvh;
+    left: 44.1dvw;
+    background-color: #1d3b6f;
+    border-radius: 5px;
+}
+
+.div-wrapper .text-wrapper-4 {
+    position: absolute;
+    height: 2.61dvh;
+    top: 13.51dvh;
+    left: 49.23dvw;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 2.61dvh;
+    white-space: nowrap;
+}
+
+.div-wrapper .group {
+    top: 20.85dvh;
+    position: absolute;
+    width: 94.1dvw;
+    height: 20.85dvh;
+    left: 4.36dvw;
+}
+
+.div-wrapper .overlap-group {
+    position: relative;
+    width: 91.03dvw;
+    height: 20.85dvh;
+    background-color: var(--blue-40);
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.div-wrapper .element {
+    position: absolute;
+    width: 8.21dvw;
+    top: 2.37dvh;
+    left: 2.56dvw;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 0.59dvh;
+}
+
+.div-wrapper .span {
+    line-height: 2.61dvh;
+}
+
+.div-wrapper .text-wrapper-5 {
+    font-size: 15px;
+    line-height: 1.66dvh;
+}
+
+.div-wrapper .p {
+    position: absolute;
+    width: 8.21dvw;
+    top: 8.89dvh;
+    left: 2.56dvw;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 0.59dvh;
+}
+
+.div-wrapper .line {
+    position: absolute;
+    width: 0.51dvw;
+    height: 1.78dvh;
+    top: 7.11dvh;
+    left: 6.15dvw;
+    object-fit: cover;
+}
+
+.div-wrapper .overlap-group-2 {
+    position: absolute;
+    width: 74.87dvw;
+    height: 13.03dvh;
+    top: 2.49dvh;
+    left: 12.82dvw;
+}
+
+.div-wrapper .text-wrapper-6 {
+    width: 74.87dvw;
+    height: 9.72dvh;
+    top: 0;
+    left: 0;
+    font-size: 25px;
+    line-height: 3.44dvh;
+    position: absolute;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    letter-spacing: 0;
+    text-transform:uppercase;
+    word-wrap: break-word
+}
+
+.div-wrapper .text-wrapper-7 {
+    height: 3.44dvh;
+    top: 9.6dvh;
+    left: 0;
+    font-size: 12px;
+    line-height: 3.44dvh;
+    white-space: nowrap;
+    position: absolute;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    letter-spacing: 0;
+    text-transform:uppercase;
+}
+
+.div-wrapper .text-wrapper-8 {
+    height: 3.44dvh;
+    top: 16.35dvh;
+    left: 3.08dvw;
+    font-size: 12px;
+    line-height: 3.44dvh;
+    white-space: nowrap;
+    position: absolute;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    text-transform:uppercase;
+    letter-spacing: 0;
+}
+
+.div-wrapper .text-wrapper-9 {
+    position: absolute;
+    height: 3.44dvh;
+    top: 16.35dvh;
+    left: 71.79dvw;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 3.44dvh;
+    text-transform:uppercase;
+    white-space: nowrap;
+}
+
+.div-wrapper .overlap-wrapper {
+    top: 47.51dvh;
+    position: absolute;
+    width: 94.1dvw;
+    height: 20.85dvh;
+    left: 4.36dvw;
+}
+
+.div-wrapper .overlap {
+    margin-bottom: 10px;
+    position: relative;
+    width: 91.03dvw;
+    height: 20.85dvh;
+    background-color: var(--purple-40);
+    border-radius: 20px;
+}
+
+.div-wrapper .overlap-group-wrapper {
+    top: 69.55dvh;
+    position: absolute;
+    width: 94.1dvw;
+    height: 20.85dvh;
+    left: 4.36dvw;
+}
+
+.div-wrapper .overlap-2 {
+    
+    position: relative;
+    width: 91.03dvw;
+    height: 20.85dvh;
+    background-color: var(--red-40);
+    border-radius: 20px;
+    margin-bottom: 10px;
+    
+}
+
+.div-wrapper .group-2 {
+    top: 91.59dvh;
+    position: absolute;
+    width: 94.1dvw;
+    height: 20.85dvh;
+    left: 4.36dvw;
+}
+
+.div-wrapper .overlap-3 {
+    position: relative;
+    width: 91.03dvw;
+    height: 20.85dvh;
+    background-color: var(--green-40);
+    border-radius: 20px;
+	margin-bottom: 10px;
+}
+
+.div-wrapper .group-3 {
+    top: 113.63dvh;
+    position: absolute;
+    width: 94.1dvw;
+    height: 20.85dvh;
+    left: 4.36dvw;
+}
+
+.div-wrapper .overlap-4 {
+    position: relative;
+    width: 91.03dvw;
+    height: 20.85dvh;
+    background-color: var(--neutral-40);
+    border-radius: 20px;
+}
+
+.div-wrapper .group-4 {
+    top: 135.66dvh;
+    position: absolute;
+    width: 94.1dvw;
+    height: 20.85dvh;
+    left: 4.36dvw;
+}
+
+.div-wrapper .overlap-5 {
+    position: relative;
+    width: 91.03dvw;
+    height: 20.85dvh;
+    background-color: var(--orange-40);
+    border-radius: 20px;
+}
+
+.div-wrapper .view-2 {
+    box-sizing: border-box;
+    width: 100%;
+    height: 8.29dvh;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: fixed; /* Закрепляет элемент */
+}
+
+.div-wrapper .overlap-6 {
+    position: relative;
+    width: 101.03dvw;
+    height: 8.29dvh;
+    background-color: #1e202b;
+    border-top-width: 0.51dvw;
+    border-top-style: solid;
+    border-color: #323544;
+}
+
+.div-wrapper .settings {
+    position: absolute;
+    width: 8.72dvw;
+    height: 4.03dvh;
+    top: 0.83dvh;
+    left: 78.97dvw;
+	opacity: 0.45;
+}
+
+.div-wrapper .element-general-book {
+    top: 1.18dvh;
+    left: 46.15dvw;
+    position: absolute;
+    width: 7.69dvw;
+    height: 3.55dvh;
+	opacity: 0.5;
+}
+
+.div-wrapper .element-general-calendar {
+    top: 1.07dvh;
+    left: 11.79dvw;
+    position: absolute;
+    width: 7.69dvw;
+    height: 3.55dvh;
+}
+
+@media screen and (width: 375px) and (height: 667px) {
+    .div-wrapper .div {
+        width: 100%;
+        height: 178dvh;
+        max-width: 375px;
+    }
+
+    .div-wrapper .view {
+        box-sizing: border-box;
+        top: 1%;
+        left: 4%;
+    }
+
+    .div-wrapper .frame {
+        left: 1%;
+    }
+
+    .div-wrapper .mask-group {
+        width: 55px;
+        height: 55px;
+        
+    }
+
+    .div-wrapper .text-wrapper {
+        font-size: 28px;
+        line-height: 1.5;
+    }
+
+    .div-wrapper .group {
+        width: 95%;
+        left: 2.5%;
+        top: 12%;
+    }
+
+    .div-wrapper .overlap-group,
+    .div-wrapper .overlap,
+    .div-wrapper .overlap-2,
+    .div-wrapper .overlap-3,
+    .div-wrapper .overlap-4,
+    .div-wrapper .overlap-5 {
+        width: 100%;
+        height: 23dvh;
+
+        border-radius: 15px;
+    }
+
+    .div-wrapper .view-2 {
+        box-sizing: border-box;
+        width: 100%;
+        height: 9.373dvh;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        position: fixed; /* Закрепляет элемент */
+    }
+
+    .div-wrapper .overlap-6 {
+        position: relative;
+        width: 101.03dvw;
+        height: 9.373dvh;
+        background-color: #1e202b;
+        border-top-width: 0.51dvw;
+        border-top-style: solid;
+        border-color: #323544;
+    }
+
+    .div-wrapper .text-wrapper-2 {
+        position: absolute;
+        height: 2.61dvh;
+        top: 13.51dvh;
+        left: 0;
+        font-family: "Montserrat", Helvetica;
+        font-weight: 500;
+        color: #ffffff;
+        font-size: 25px;
+        text-align: center;
+        letter-spacing: 0;
+        line-height: 2.61dvh;
+        white-space: nowrap;
+    }
+    
+    .div-wrapper .text-wrapper-3 {
+        position: absolute;
+        height: 2.61dvh;
+        top: 9.83dvh;
+        left: 0;
+        font-family: "Montserrat", Helvetica;
+        font-weight: 400;
+        color: #ffffff;
+        font-size: 20px;
+        letter-spacing: 0;
+        line-height: 2.61dvh;
+        white-space: nowrap;
+    }
+    
+    .div-wrapper .ellipse {
+        position: absolute;
+        width: 2.56dvw;
+        height: 2.56dvw;
+        top: 14.22dvh;
+        left: 36.1dvw;
+        background-color: #1d3b6f;
+        border-radius: 5px;
+    }
+    
+    .div-wrapper .text-wrapper-4 {
+        position: absolute;
+        height: 2.61dvh;
+        top: 13.51dvh;
+        left: 42.23dvw;
+        font-family: "Montserrat", Helvetica;
+        font-weight: 500;
+        color: #ffffff;
+        font-size: 25px;
+        text-align: center;
+        letter-spacing: 0;
+        line-height: 2.61dvh;
+        white-space: nowrap;
+    }
+
+    .div-wrapper .text-wrapper-6 {
+        font-size: 20px;
+        line-height: 1.4;
+    }
+
+    .div-wrapper .text-wrapper-7 {
+    height: 3.44dvh;
+    top: 11.6dvh;
+    left: 0;
+    font-size: 12px;
+    line-height: 3.44dvh;
+    white-space: nowrap;
+    position: absolute;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    letter-spacing: 0;
+    text-transform:uppercase;
+}
+
+.div-wrapper .text-wrapper-8 {
+    height: 3.44dvh;
+    top: 18.35dvh;
+    left: 3.08dvw;
+    font-size: 12px;
+    line-height: 3.44dvh;
+    white-space: nowrap;
+    position: absolute;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    text-transform:uppercase;
+    letter-spacing: 0;
+}
+
+.div-wrapper .text-wrapper-9 {
+    position: absolute;
+    height: 3.44dvh;
+    top: 18.35dvh;
+    left: 71.79dvw;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 3.44dvh;
+    text-transform:uppercase;
+    white-space: nowrap;
+}
+}

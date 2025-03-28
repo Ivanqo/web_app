@@ -1,0 +1,135 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+html,
+body {
+	background-color: #1e202b;
+    margin: 0px;
+    height: 100%;
+}
+
+.div-wrapper {
+    background-color: #1e202b;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.div-wrapper .div {
+    background-color: #1e202b;
+    width: 390px;
+    height: 844px;
+    position: relative;
+}
+
+.div-wrapper .text-wrapper {
+    height: 22px;
+    top: 33px;
+    left: 84px;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    line-height: 22px;
+    white-space: nowrap;
+    position: absolute;
+    color: #ffffff;
+    letter-spacing: 0;
+}
+
+.div-wrapper .overlap-group {
+    position: absolute;
+    width: 345px;
+    height: 672px;
+    top: 60px;
+    left: 20px;
+}
+
+.div-wrapper .share {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    top: 63px;
+    left: 248px;
+}
+
+.div-wrapper .ipad {
+    position: absolute;
+    width: 390px;
+    height: 734px;
+    scale: 0.7;
+    top: 103px;
+    left: 8px;
+}
+
+.div-wrapper .rectangle {
+    position: absolute;
+    width: 250px;
+    height: 44px;
+    top: 590px;
+    left: 75px;
+    border: 4px solid;
+    border-color: #1d3b6fbf;
+    border-radius: 10px;
+}
+
+.div-wrapper .arrow {
+    position: absolute;
+    width: 57px;
+    height: 67px;
+    top: 540px;
+    left: 240px;
+}
+
+.div-wrapper .p {
+    top: 0;
+    left: 0;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    position: absolute;
+    color: #ffffff;
+    letter-spacing: 0;
+}
+
+.div-wrapper .span {
+    font-weight: 500;
+    line-height: 50px;
+}
+
+.div-wrapper .text-wrapper-2 {
+    font-family: "Montserrat", Helvetica;
+    font-size: 15px;
+    line-height: 50px;
+}
+
+.div-wrapper .text-wrapper-3 {
+    font-family: "Montserrat", Helvetica;
+    font-size: 15px;
+    line-height: 29px;
+}
+
+.div-wrapper .text-wrapper-4 {
+    position: absolute;
+    font-family: "Montserrat", Helvetica;
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 29px;
+    left: 20px;
+    top: 732px;
+}
+
+.div-wrapper .text-wrapper-5 {
+    position: absolute;
+    font-family: "Montserrat", Helvetica;
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 29px;
+    left: 20px;
+    top: 773px;
+}

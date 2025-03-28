@@ -1,0 +1,47 @@
+{% load static %} 
+<!DOCTYPE html>
+<html>
+	<head>
+	   <link rel="stylesheet" href="{% static 'css/style_schedule.css' %}" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+	   <noscript><link rel="stylesheet" href="{% static 'css/style_schedule.css' %}"></noscript>
+	   <link rel="stylesheet" href="{% static 'css/styleguide_schedule.css' %}"> 
+	   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	   <meta name="format-detection" content="telephone=no">
+	   <title>Расписание</title>
+	   <link rel="manifest" href="/manifest.json">
+	</head>
+	<body>
+	  <div class="div-wrapper">
+		<div class="div">
+			<div class="view">
+				<div class="frame">
+					<img class="mask-group" src="{% static 'img/mask-group.png'%}" />
+					<div class="text-wrapper">РАСПИСАНИЕ</div>
+				</div>
+				<div class="text-wrapper-2">СЕГОДНЯ</div>
+				<div class="text-wrapper-3">{{ day_type }}</div>
+				<div class="ellipse"></div>
+				<div class="text-wrapper-4">{{ today }}</div>
+			</div>
+			<div class = "group">
+			{% block content %}
+			{% endblock %}
+			</div>
+			<div class="view-2">
+				<div class="overlap-6">
+					<a href="/profile">
+					<img class="settings" src="{% static 'img/settings.svg' %}"/>
+					</a>
+					<a href="/news">
+					<img class="element-general-book" src="{% static 'img/book.svg' %}" />
+					</a>
+					<a href="/timetable">
+					<img class="element-general-calendar" src="{% static 'img/calendar.svg' %}" />
+					</a>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	</body>
+</html>

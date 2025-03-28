@@ -1,0 +1,31 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="{% static 'css/styleguide_first.css' %}" />
+        <link rel="stylesheet" href="{% static 'css/style_first.css' %}" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <link rel="manifest" href="/manifest.json">
+    </head>
+    <body>
+        <div class="div-wrapper">
+            <div class="div">
+                <div class="text-wrapper">НИУ МГСУ</div>
+                <div class="overlap-group">
+                    <img class="share" src="{% static 'img/share.svg'%}" />
+                    <p class="p">
+                        <span class="span">Как открыть приложение:<br /></span>
+                        <span class="text-wrapper-2">1. Нажать клавишу поделиться<br /></span>
+                        <span class="text-wrapper-3">2. На экран «Домой»</span>
+                    </p>
+                </div>
+                <img class="ipad" src="{% static 'img/ipad.png'%}" />
+                <div class="rectangle"></div>
+                <img class="arrow" src="{% static 'img/arrow-1.svg'%}" />
+                <span class="text-wrapper-4">3. Клавиша “Добавить”<br /></span>
+                <span class="text-wrapper-5">4. Приложение НИУ МГСУ у Вас на экране</span>
+            </div>
+        </div>
+    </body>
+</html> 

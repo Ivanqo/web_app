@@ -1,0 +1,20 @@
+{% extends "NewsApp/base.html" %} 
+
+{% block content %}
+
+    <div class="news">
+        {% for news in new_list %}
+            <div class="overlap {% if news.colour == 0 %}overlap
+            {% elif news.colour == 1 %}overlap-2
+            {% elif news.colour == 2 %}overlap-3
+            {% else %}overlap-4
+            {% endif %}">
+                <p class="text-wrapper-4">{{ news.title }}</p>
+                <p class="p">{{ news.content }}</p>
+                {% if news.image %}
+                    <img class="img-2" src="{{ news.image.url }}" alt="Новость" />
+                {% endif %}
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}
